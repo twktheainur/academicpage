@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@xmit.co/xmit": "^0.2.11-0",
+    "uglifycss": "^0.0.29"
+  },
+  "scripts": {
+    "build": "uglifycss src/main.css > site_root/assets/css/main.min.css",
+    "deploy": "npm run build && xmit andont.xmit.dev ./site_root/"
+  }
+}

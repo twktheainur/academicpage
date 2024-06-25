@@ -1,0 +1,11 @@
+[[headers]] # cache assets for a year
+name = "cache-control"
+value = "public, max-age=31536000"
+
+
+[[headers]] # unset referrer-policy
+name = "referrer-policy"
+
+[[headers]]
+name="Accept-Encoding"
+value="gzip, compress, br"
