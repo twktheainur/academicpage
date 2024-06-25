@@ -49,4 +49,4 @@ jobs:
     steps:
     - name: 'Deploy to Xmit'
       run:
-        npm deploy
+        npm run deploy
