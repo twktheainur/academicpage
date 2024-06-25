@@ -1,4 +1,4 @@
-#Andon Tchechmedjiev' academic page
+# Andon Tchechmedjiev' academic page
 
 This repository hosts the sources of my academic webpage. 
 This is a custom adaptation of a static https://html5up.net/ template that has been heavily modified and stripped down. 
