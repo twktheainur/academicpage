@@ -332,12 +332,25 @@ label {
 	height: 32px;
 }
 
-.icon>.label {
-	display: none
+.icons li a {
+	border-bottom: none;
+	text-decoration: none;
 }
 
-.icon:before {
-	line-height: inherit
+a .icon path {
+	fill: #49bf9d;
+	transition: fill 1s ease;
+	-moz-transition: fill 1s ease;
+	-webkit-transition: fill 1s ease;
+	-ms-transition: fill 1s ease;
+}
+
+a:hover .icon path {
+	fill: #0AFAB6;
+}
+
+.icon>.label {
+	display: none
 }
 
 .image {
@@ -376,7 +389,7 @@ label {
 	transition: opacity .2s ease-in-out;
 	border-radius: .35em;
 	border: solid 3px rgba(255, 255, 255, .5);
-	color: #fff;
+	color: #000000;
 	content: 'View';
 	display: inline-block;
 	font-size: .8em;
